@@ -33,7 +33,7 @@ public class InfrastructureStack extends Stack {
         List<String> functionOnePackagingInstructions = Arrays.asList(
                 "-c",
                 "cd products " +
-                        "&& mvn clean install -P native-image "
+                        "&& mvn clean install -P native-image"
                        + "&& cp /asset-input/products/target/function.zip /asset-output/"
         );
 
